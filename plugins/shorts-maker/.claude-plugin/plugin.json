@@ -1,0 +1,24 @@
+{
+  "name": "shorts-maker",
+  "version": "0.1.0",
+  "description": "롱폼 영상에서 하이라이트 구간을 골라 9:16 숏츠로 자동 컷·자막 번인. yt-dlp + ffmpeg 로컬 파이프라인(API 키 불필요), Windows/macOS 크로스플랫폼.",
+  "author": {
+    "name": "halasu",
+    "url": "https://github.com/halasu"
+  },
+  "homepage": "https://github.com/halasu/claude-plugins-setup",
+  "repository": "https://github.com/halasu/claude-plugins-setup",
+  "license": "MIT",
+  "keywords": [
+    "shorts",
+    "youtube",
+    "video",
+    "ffmpeg",
+    "yt-dlp",
+    "highlight",
+    "vertical-video",
+    "subtitle",
+    "cross-platform",
+    "korean"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "halasu-plugins",
+  "description": "Patrick(halasu)의 Claude Code 플러그인 마켓플레이스. 크로스플랫폼(Windows/macOS) 자체 제작 플러그인 모음.",
+  "owner": {
+    "name": "halasu",
+    "url": "https://github.com/halasu"
+  },
+  "plugins": [
+    {
+      "name": "shorts-maker",
+      "description": "롱폼 영상(YouTube URL 또는 로컬 파일)에서 바이럴 하이라이트 구간을 골라 9:16 숏츠로 자동 컷·자막 번인. yt-dlp + ffmpeg 로컬 파이프라인, API 키 불필요. Windows/macOS 크로스플랫폼.",
+      "source": "./plugins/shorts-maker",
+      "category": "productivity",
+      "tags": [
+        "shorts",
+        "youtube",
+        "video",
+        "ffmpeg",
+        "yt-dlp",
+        "highlight",
+        "vertical-video",
+        "subtitle",
+        "cross-platform",
+        "korean"
+      ]
+    }
+  ]
+}

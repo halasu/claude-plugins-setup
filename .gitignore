@@ -1,0 +1,36 @@
+# === 방어선(defense-in-depth): 실수로 비밀·개인정보가 커밋되지 않도록 차단 ===
+# 이 저장소에는 아래 파일들이 절대 들어가면 안 됩니다.
+
+# 비밀/자격증명
+*.env
+.env*
+*.key
+*.pem
+*.p12
+*.pfx
+*secret*
+*token*
+*credential*
+*password*
+id_rsa*
+*.keychain
+
+# 개인/업무 자료 (혹시라도 이 폴더에 잘못 복사될 경우 대비)
+*.pdf
+*.zip
+*.plist
+telegram*
+*_config.json
+bkit.config.json
+
+# OS / 에디터 잡동사니
+.DS_Store
+Thumbs.db
+.obsidian/
+*.log
+
+# Python / shorts-maker 산출물
+__pycache__/
+*.pyc
+shorts_work/
+out/
