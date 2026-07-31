@@ -14,7 +14,7 @@ $Marketplaces = @(
   @{ Name = "openai-codex";            Url = "https://github.com/openai/codex-plugin-cc";             Plugins = @("codex") },
   @{ Name = "superpowers-marketplace"; Url = "https://github.com/obra/superpowers-marketplace";       Plugins = @("superpowers") },
   @{ Name = "claude-plugins-official"; Url = "https://github.com/anthropics/claude-plugins-official"; Plugins = @("context7") },
-  @{ Name = "halasu-plugins";          Url = "https://github.com/halasu/claude-plugins-setup";       Plugins = @("shorts-maker") }
+  @{ Name = "halasu-plugins";          Url = "https://github.com/halasu/claude-plugins-setup";       Plugins = @("shorts-maker","orca-orchestration") }
 )
 # ---------------------------------------------------------------------------
 

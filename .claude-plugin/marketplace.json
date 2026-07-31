@@ -23,6 +23,24 @@
         "cross-platform",
         "korean"
       ]
+    },
+    {
+      "name": "orca-orchestration",
+      "description": "Orca 멀티에이전트 IDE의 오케스트레이션을 Claude Code에서 사용 — 버전 매칭 가이드 로딩 스킬 + /orca-duel A/B 듀얼 커맨드(claude vs codex 병렬 디스패치·비교). Windows/macOS 크로스플랫폼.",
+      "source": "./plugins/orca-orchestration",
+      "category": "productivity",
+      "tags": [
+        "orca",
+        "orchestration",
+        "multi-agent",
+        "worktree",
+        "ab-test",
+        "dispatch",
+        "claude",
+        "codex",
+        "cross-platform",
+        "korean"
+      ]
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "name": "orca-orchestration",
+  "version": "0.1.0",
+  "description": "Orca 멀티에이전트 IDE의 오케스트레이션(태스크 디스패치, worker_done 대기, A/B 듀얼)을 Claude Code에서 사용. 가이드는 orca 바이너리에서 실행 시점에 로드해 버전 불일치가 없음. Windows/macOS 크로스플랫폼.",
+  "author": {
+    "name": "halasu",
+    "url": "https://github.com/halasu"
+  },
+  "homepage": "https://github.com/halasu/claude-plugins-setup",
+  "repository": "https://github.com/halasu/claude-plugins-setup",
+  "license": "MIT",
+  "keywords": [
+    "orca",
+    "orchestration",
+    "multi-agent",
+    "worktree",
+    "ab-test",
+    "dispatch",
+    "claude",
+    "codex",
+    "cross-platform",
+    "korean"
+  ]
+}

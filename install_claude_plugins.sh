@@ -15,7 +15,7 @@ MARKETPLACES=(
   "openai-codex|https://github.com/openai/codex-plugin-cc|codex"
   "superpowers-marketplace|https://github.com/obra/superpowers-marketplace|superpowers"
   "claude-plugins-official|https://github.com/anthropics/claude-plugins-official|context7"
-  "halasu-plugins|https://github.com/halasu/claude-plugins-setup|shorts-maker"
+  "halasu-plugins|https://github.com/halasu/claude-plugins-setup|shorts-maker orca-orchestration"
 )
 # ---------------------------------------------------------------------------
 

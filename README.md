@@ -38,6 +38,7 @@ powershell -ExecutionPolicy Bypass -File install_claude_plugins.ps1
 | superpowers | [obra/superpowers-marketplace](https://github.com/obra/superpowers-marketplace) |
 | context7 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) |
 | **shorts-maker** (자체 제작) | 이 저장소 (`halasu-plugins` 마켓플레이스) — [plugins/shorts-maker](plugins/shorts-maker) |
+| **orca-orchestration** (자체 제작) | 이 저장소 (`halasu-plugins` 마켓플레이스) — [plugins/orca-orchestration](plugins/orca-orchestration) |
 
 설치할 플러그인을 바꾸려면 스크립트 상단의 목록(`MARKETPLACES` / `$Marketplaces`)만 수정하면 됩니다.
 
@@ -48,10 +49,12 @@ powershell -ExecutionPolicy Bypass -File install_claude_plugins.ps1
 ```text
 /plugin marketplace add https://github.com/halasu/claude-plugins-setup
 /plugin install shorts-maker@halasu-plugins
+/plugin install orca-orchestration@halasu-plugins
 /reload-plugins
 ```
 
 - **shorts-maker** — 롱폼 영상(YouTube URL/로컬 파일)에서 하이라이트를 골라 9:16 숏츠로 자동 컷·자막 번인. `yt-dlp`+`ffmpeg` 로컬, API 키 불필요, Windows/macOS 크로스플랫폼. → [plugins/shorts-maker/README.md](plugins/shorts-maker/README.md)
+- **orca-orchestration** — [Orca](https://orca.dev) 멀티에이전트 IDE의 오케스트레이션을 Claude Code에서 사용. 버전 매칭 가이드 로딩 스킬 + `/orca-duel` A/B 듀얼 커맨드(claude vs codex 병렬 디스패치·비교, 머지는 사용자 선택). Windows/macOS 크로스플랫폼. → [plugins/orca-orchestration/README.md](plugins/orca-orchestration/README.md) · 실전 기록: [docs/sessions/2026-08-01-orca-duel-hero-redesign.md](docs/sessions/2026-08-01-orca-duel-hero-redesign.md)
 
 ## 개인 스킬 / Personal skills
 
